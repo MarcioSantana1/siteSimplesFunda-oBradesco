@@ -1,0 +1,120 @@
+body{
+
+    font-family: monospace;
+    
+    }
+    
+    ul {
+    
+    font-family: helvética;
+    
+    }
+    li {
+
+        list-style: circle;
+        
+        }
+        
+        .list {
+        
+        list-style: square;
+        
+        }
+        
+
+
+
+
+
+
+
+
+
+
+
+        
+ :root {
+
+    --green: #00ff00;
+    --white: #ffffff; 
+    --black: #000000;
+} 
+
+.light-theme { 
+    --bg: var(--green);
+    --font-Color: var(--black);
+    }
+   .dark-theme { 
+   --bg: var(--black);
+   --font-Color: var(--green);
+}
+.light-theme {
+
+
+    
+    color: #000000;
+    background: #00ff00;
+
+    
+}
+
+.dark-theme {
+
+    color: #00ff00;
+    background-color: #000000;
+}
+  
+
+* {
+    color: var(--fontcolor);
+    font-family:  Helvetica;
+}
+
+
+
+
+
+body {
+    background: var(--Bg);
+}
+
+.btn {
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+
+
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.btn:focus { outline-style: none; }
+
+
+
+
+
+
+
+.light-theme {
+    --bg: var(--greem);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--greem);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
